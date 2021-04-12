@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/overhead-view-red-dices-casino-chips-green-poker-background.jpg);
+    background-size: cover;
+}
+h1 {
+    margin: 3% 0 2% 2%;
+    font-size: 4em;
+    color: rgb(255, 196, 45);
+}
+#white {
+    color: white;
+}
+.container {
+    text-align: center;
+}
+.game span {
+    font-size: 3em;
+    font-weight: bolder;
+}
+.card img {
+    height: 7em;
+    width: 5em;
+}
+.card h2 {
+    color: goldenrod;
+    margin: 10px 0 0 0;
+    font-size: 2em;
+}
+.card-row {
+    margin: 5% 0 10% 0;
+}
+.button {
+    margin: 2% 0 1% 0;
+}
+.button button {
+    padding: 10px 15px 10px 15px;
+}

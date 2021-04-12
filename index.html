@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Counting Cards</h1>
+    <div class="container">
+        <div class="game">
+            <span>Black</span>
+            <span id="white">Jack</span>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="img/2.png" alt="">
+                <img src="img/3.png" alt="">
+                <img src="img/4.png" alt="">
+                <img src="img/5.png" alt="">
+                <img src="img/6.png" alt="">
+                <h2 id="first"></h2>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="firstSeq()">Count</button>
+                <button class="reset" onclick="reset1()">Reset</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="img/7.png" alt="">
+                <img src="img/8.png" alt="">
+                <img src="img/9.png" alt="">
+                <h2 id="second"></h2>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="secondSeq()">Count</button>
+                <button class="reset" onclick="reset2()">Reset</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="img/10.png" alt="">
+                <img src="img/j.png" alt="">
+                <img src="img/k.png" alt="">
+                <img src="img/q.png" alt="">
+                <img src="img/1.png" alt="">
+                <h2 id="third"></h2>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="thirdSeq()">Count</button>
+                <button class="reset" onclick="reset3()">Reset</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="img/3.png" alt="">
+                <img src="img/7.png" alt="">
+                <img src="img/q.png" alt="">
+                <img src="img/8.png" alt="">
+                <img src="img/1.png" alt="">
+                <h2 id="fourth"></h2>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="fourthSeq()">Count</button>
+                <button class="reset" onclick="reset4()">Reset</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="img/2.png" alt="">
+                <img src="img/j.png" alt="">
+                <img src="img/9.png" alt="">
+                <img src="img/2.png" alt="">
+                <img src="img/7.png" alt="">
+                <h2 id="fifth"></h2>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="fifthSeq()">Count</button>
+                <button class="reset" onclick="reset5()">Reset</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="img/2.png" alt="">
+                <img src="img/2.png" alt="">
+                <img src="img/10.png" alt="">
+                <h2 id="sixth"></h2>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="sixSeq()">Count</button>
+                <button class="reset" onclick="reset6()">Reset</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="img/3.png" alt="">
+                <img src="img/2.png" alt="">
+                <img src="img/1.png" alt="">
+                <img src="img/10.png" alt="">
+                <img src="img/k.png" alt="">
+                <h2 id="seventh"></h2>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="sevenSeq()">Count</button>
+                <button class="reset" onclick="reset7()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/card.js"></script>
+</body>
+</html>
